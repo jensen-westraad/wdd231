@@ -2,13 +2,76 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Course homepage project">
+  <meta name="author" content="Your Name">
+  <title>Home | Course Project</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>WDD 231 - Jensen Westraad</h1>
+  <header>
+    <div class="logo">
+      <img src="images/logo.svg" alt="Site Logo">
+      <span class="sitename">Site Name</span>
+    </div>
+
+    <button id="menuButton" aria-label="Toggle menu">☰</button>
+
+    <nav id="navMenu">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Chamber Project</a></li>
+        <li><a href="#">Final Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Home</h1>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        Write a short paragraph about yourself here — a few lines describing who you are and what this project is about.
+      </p>
+    </section>
+
+    <section class="photo">
+      <h2>Student Photo</h2>
+      <img src="images/me.jpg" alt="Photo of student">
+    </section>
+
+    <section class="courses">
+      <h2>Web Certificate Courses</h2>
+
+      <div class="filters">
+        <button>All</button>
+        <button>CSE</button>
+        <button>WDD</button>
+      </div>
+
+      <ul class="course-list">
+        <li>WDD 130</li>
+        <li>WDD 231</li>
+      </ul>
+
+      <p>The total credits for courses listed above is 6</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+    </div>
+
+    <p>&copy; <span id="year"></span> Student Name, Utah, USA</p>
+    <p id="lastModified"></p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
