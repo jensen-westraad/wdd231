@@ -5,9 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Course homepage project">
-  <meta name="author" content="Your Name">
+  <meta name="author" content="Jensen Westraad">
   <title>Home | Course Project</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="styles/small.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Libre+Baskerville&display=swap"
+    rel="stylesheet">
+
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -31,43 +37,52 @@
   <main>
     <h1>Home</h1>
 
-    <section class="about">
-      <h2>About Me</h2>
-      <p>
-        Write a short paragraph about yourself here — a few lines describing who you are and what this project is about.
-      </p>
-    </section>
+    <div class="container">
+      <section class="about">
+        <h2>About Me</h2>
+        <p>
+          My name is Jensen Westraad, I was born in Cape Town, South Africa and have stayed in Cape Town for all 20
+          years
+          of my life.
+        </p>
+      </section>
 
-    <section class="photo">
-      <h2>Student Photo</h2>
-      <img src="images/me.jpg" alt="Photo of student">
-    </section>
+      <section class="photo">
+        <h2>Student Photo</h2>
+        <img src="images/student_photo.png" alt="Photo of student">
+      </section>
+    </div>
 
     <section class="courses">
       <h2>Web Certificate Courses</h2>
 
+      <div id="courseContainer"></div>
+
       <div class="filters">
-        <button>All</button>
-        <button>CSE</button>
-        <button>WDD</button>
+        <button id="all">All Courses</button>
+        <button id="wdd">WDD Courses</button>
+        <button id="cse">CSE Courses</button>
       </div>
 
-      <ul class="course-list">
-        <li>WDD 130</li>
-        <li>WDD 231</li>
-      </ul>
 
-      <p>The total credits for courses listed above is 6</p>
+
+      <p>The total credits for courses listed above is <span id="totalCredits"></span>.</p>
+
     </section>
+
+    <div class="social">
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <img src="images/linked_in.png" alt="LinkedIn logo">
+      </a>
+
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <img src="images/github.png" alt="GitHub logo">
+      </a>
+    </div>
   </main>
 
   <footer>
-    <div class="social">
-      <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
-    </div>
-
-    <p>&copy; <span id="year"></span> Student Name, Utah, USA</p>
+    <p>&copy; <span id="year"></span> Jensen Westraad, Cape Town, South Africa</p>
     <p id="lastModified"></p>
   </footer>
 

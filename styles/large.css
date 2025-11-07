@@ -1,0 +1,219 @@
+:root {
+    --primary: #93e4c1;
+    --accent_1: #3baea0;
+    --accent_2: #118a7e;
+    --accent_3: #1f6f78;
+    --text: #f5f5f5;
+}
+
+body {
+    color: var(--accent_3);
+    background-color: var(--primary);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: var(--text);
+
+
+}
+
+/* ===== HEADER ===== */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--accent_3);
+    color: var(--text);
+    padding: 1rem;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header img {
+    width: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+header a.active {
+    border-bottom: 2px solid var(--text);
+}
+
+/* Hamburger button - hidden on desktop */
+#menuButton {
+    display: none;
+    background: none;
+    color: var(--text);
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* ===== MAIN ===== */
+main {
+    max-width: 900px;
+    margin: 1rem auto;
+    background-color: var(--text);
+    padding: 1rem;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 2px solid var(--text);
+}
+
+
+
+/* Desktop (large screens) */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Hover effect */
+nav a:hover {
+    color: var(--accent);
+}
+
+/* Mobile (small screens) */
+@media (max-width: 700px) {
+    nav ul {
+        display: none;
+        /* hidden until menu opens */
+        flex-direction: column;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    #menuButton {
+        display: block;
+    }
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    /* keeps proportions */
+}
+
+.container {
+    display: flex;
+    column-gap: 20px;
+
+}
+
+section {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid var(--accent_3);
+}
+
+section h2 {
+    background: var(--accent_3);
+    color: var(--text);
+    padding: 0.5rem;
+}
+
+.photo img {
+    display: block;
+    max-width: 200px;
+    margin: 1rem auto;
+    border: 2px solid #ccc;
+}
+
+/* Courses */
+.courses .filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.courses button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: var(--accent_2);
+    color: var(--text);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.courses button:hover {
+    background: var(--primary);
+}
+
+.courses ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: var(--accent_3);
+    color: var(--text);
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: var(--text);
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.social a img {
+    width: 40px;
+    /* size of your icon */
+    height: 40px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.social a img:hover {
+    transform: scale(1.1);
+    /* little zoom on hover */
+    opacity: 0.8;
+    /* slight fade effect */
+}
