@@ -1,4 +1,4 @@
-/* ===== RESPONSIVE DESIGN ===== */
+
 @media (max-width: 700px) {
   header {
     flex-wrap: wrap;
@@ -25,6 +25,17 @@
     padding: 0.5rem 0;
     border-top: 1px solid #555;
   }
+
+
+  #navMenu {
+    display: none;
+  }
+
+
+  #navMenu.show {
+    display: block;
+  }
+
 
   main {
     padding: 0.5rem;

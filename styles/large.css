@@ -61,7 +61,6 @@ header a.active {
     border-bottom: 2px solid var(--text);
 }
 
-/* Hamburger button - hidden on desktop */
 #menuButton {
     display: none;
     background: none;
@@ -71,7 +70,6 @@ header a.active {
     cursor: pointer;
 }
 
-/* ===== MAIN ===== */
 main {
     max-width: 900px;
     margin: 1rem auto;
@@ -94,24 +92,21 @@ nav a:hover {
 }
 
 
-
-/* Desktop (large screens) */
 nav ul {
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
 
-/* Hover effect */
 nav a:hover {
     color: var(--accent);
 }
 
-/* Mobile (small screens) */
+
 @media (max-width: 700px) {
     nav ul {
         display: none;
-        /* hidden until menu opens */
+        
         flex-direction: column;
     }
 
@@ -128,7 +123,7 @@ nav a:hover {
 img {
     width: 100%;
     height: auto;
-    /* keeps proportions */
+    
 }
 
 .container {
@@ -156,7 +151,7 @@ section h2 {
     border: 2px solid #ccc;
 }
 
-/* Courses */
+
 .courses .filters {
     display: flex;
     justify-content: center;
@@ -183,7 +178,7 @@ section h2 {
     margin-bottom: 0.5rem;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
     background-color: var(--accent_3);
     color: var(--text);
@@ -206,14 +201,14 @@ footer a {
 
 .social a img {
     width: 40px;
-    /* size of your icon */
+    
     height: 40px;
     transition: transform 0.3s, opacity 0.3s;
 }
 
 .social a img:hover {
     transform: scale(1.1);
-    /* little zoom on hover */
+    
     opacity: 0.8;
-    /* slight fade effect */
+    
 }
