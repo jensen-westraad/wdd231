@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Jack Rabbit Slim's",
+            "address": "1500 Sunset Blvd, Los Angeles, CA 90026",
+            "phone": "(213) 555-0184",
+            "website": "https://www.jackrabbitslims.com",
+            "image": "images/jack_rabbit_slims.jpeg",
+            "membership": 2,
+            "description": "Retro 1950s-themed restaurant and nightclub famous for its twist contests and milkshakes that cost five dollars."
+        },
+        {
+            "name": "Los Pollos Hermanos",
+            "address": "1200 Central Ave SW, Albuquerque, NM 87102",
+            "phone": "(505) 555-0147",
+            "website": "https://www.lospolloshermanos.com",
+            "image": "images/los_pollos_hermanos.jpeg",
+            "membership": 2,
+            "description": "Family-friendly restaurant chain famous for its crispy chicken and friendly service."
+        },
+        {
+            "name": "Pizza Planet",
+            "address": "100 Infinity Dr, Emeryville, CA 94608",
+            "phone": "(510) 555-0110",
+            "website": "https://www.pizzaplanet.com",
+            "image": "images/pizza_planet.jpeg",
+            "membership": 2,
+            "description": "Intergalactic-themed pizza and arcade restaurant delivering fun for the whole family."
+        },
+        {
+            "name": "Good Burger",
+            "address": "246 Nickel St, Los Angeles, CA 90028",
+            "phone": "(323) 555-0193",
+            "website": "https://www.goodburger.good",
+            "image": "images/good_burger.jpeg",
+            "membership": 1,
+            "description": "Iconic burger stand known for its friendly staff and home of the legendary Good Burger."
+        },
+        {
+            "name": "The Krusty Krab",
+            "address": "831 Bottom Feeder Lane, Bikini Bottom",
+            "phone": "(000) 555-0131",
+            "website": "https://www.krustykrab.kash",
+            "image": "images/krusty_krabs.jpeg",
+            "membership": 3,
+            "description": "Undersea fast-food restaurant best known for its Krabby Patties and questionable labor policies."
+        },
+        {
+            "name": "Two Whales Diner",
+            "address": "32 Coastal Hwy, Arcadia Bay, OR 97445",
+            "phone": "(541) 555-0125",
+            "website": "https://www.twowhalesdiner.com",
+            "image": "images/two_whales_diner.jpeg",
+            "membership": 2,
+            "description": "Classic roadside diner serving hearty breakfasts and coffee to travelers and locals alike."
+        },
+        {
+            "name": "7-Eleven",
+            "address": "700 Main St, Dallas, TX 75201",
+            "phone": "(214) 555-0169",
+            "website": "https://www.7-eleven.com",
+            "image": "images/seven_eleven.jpeg",
+            "membership": 1,
+            "description": "Convenience store chain open 24/7, offering snacks, drinks, and a bit of everything you forgot to buy."
+        }
+    ]
+}

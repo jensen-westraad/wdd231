@@ -7,8 +7,8 @@
     <meta name="description" content="Course Chamber Page">
     <meta name="author" content="Jensen Westraad">
 
-    <meta property="og:title" content="Homepage - Jensen Westraads WDD231 Project">
-    <meta property="og:description" content="Enter Description later">
+    <meta property="og:title" content="Business Directory - Jensen Westraads WDD231 Project">
+    <meta property="og:description" content="Explore local businesses and members">
     <meta property="og:image" content="">
     <meta property="og:url" content="">
 
@@ -16,12 +16,11 @@
 
     <link rel="stylesheet" href="styles/directory.css">
 
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="images/favicon_2.ico">
 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Libre+Baskerville&display=swap"
         rel="stylesheet">
 
-    <script src="scripts/directory.js" defer></script>
 
 </head>
 
@@ -44,20 +43,31 @@
         </nav>
     </header>
 
-    <div class="social">
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-        <img src="images/linked_in.png" alt="LinkedIn logo">
-      </a>
+    <h1>Business Directory</h1>
+    <div class="view-toggle">
+        <button id="gridBtn" class="active">Grid View</button>
+        <button id="listBtn">List View</button>
+    </div>
 
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-        <img src="images/github.png" alt="GitHub logo">
-      </a>
+    <section id="members" class="grid"></section>
+
+
+    <div class="social">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="images/linked_in.png" alt="LinkedIn logo">
+        </a>
+
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <img src="images/github.png" alt="GitHub logo">
+        </a>
     </div>
 
     <footer>
-    <p>&copy; <span id="year"></span> Jensen Westraad, Cape Town, South Africa</p>
-    <p id="lastModified"></p>
-  </footer>
+        <p>&copy; <span id="year"></span> Jensen Westraad, Cape Town, South Africa</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/directory.js" type="module"></script>
 
 </body>
 
