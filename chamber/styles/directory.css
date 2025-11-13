@@ -42,6 +42,30 @@ body {
     background-color: var(--text);
 }
 
+nav a {
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 2px solid var(--text);
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+.view-toggle button:hover {
+    background: var(--primary);
+}
+
 /* Header */
 header {
     display: flex;
