@@ -111,6 +111,42 @@ header a.active {
 }
 
 
+
+.hero {
+
+    
+    border: var(--accent_3);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid var(--accent_3);
+    margin: 1rem 0;
+    
+
+
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+
+}
+
+.hero img:hover {
+
+    transform: scale(1.01);
+    opacity: 0.8;
+    transition: transform 1s, opacity 1s;
+
+}
+
+
+
+
+
+
+
+
 /*footer*/
 footer {
     background-color: var(--accent_3);
