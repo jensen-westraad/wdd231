@@ -176,9 +176,7 @@ section {
     border-radius: 5px;
 }
 
-.hero-text .cta:hover {
-    background: #ffcc33;
-}
+
 
 
 
@@ -256,4 +254,37 @@ footer {
   background: #eaf6f6;
 }
 
+.weather-card {
+    text-align: center;
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
 
+.weather-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.spotlight-card img.spot-logo {
+    width: 100%;
+    max-width: 160px;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 6px;
+}
+
+.weather-card:hover {
+
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    transition: transform 1s, opacity 1s;
+}
+
+.spotlight-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    transition: transform 1s, opacity 1s;
+}
