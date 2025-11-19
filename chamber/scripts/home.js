@@ -58,7 +58,7 @@ loadWeather();
 
 async function loadSpotlights() {
     try {
-        const res = await fetch("/chamber/data/members.json");
+        const res = await fetch("./data/members.json");
         const data = await res.json();
 
         const levelName = {
