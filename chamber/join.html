@@ -5,15 +5,16 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Course Landing Page">
+    <meta name="description"
+        content="Join Page of PEAK Commerce, the chamber of commerce involving all your local businesses. Join and become up-to-date on all new business networking opportunities for your business.">
     <meta name="author" content="Jensen Westraad">
 
-    <meta property="og:title" content="Landing Page - Jensen Westraads WDD231 Project">
-    <meta property="og:description" content="Explore local businesses and members">
+    <meta property="og:title" content="PEAK Commerce Join Page - Jensen Westraads WDD231 Project">
+    <meta property="og:description" content="Join the Chamber of Commerce with your local businesses">
     <meta property="og:image" content="">
     <meta property="og:url" content="">
 
-    <title>Landing Page | WDD231</title>
+    <title>Join PEAK Commerce | WDD231</title>
 
     <link rel="stylesheet" href="styles/join.css">
 
@@ -45,134 +46,143 @@
         </nav>
     </header>
 
-    <h1>Join the Chamber of Commerce</h1>
+    <main>
+        <h1>Join the Chamber of Commerce</h1>
 
-    <div class="form-and-cards">
-
-        
-
-        <form method="get" action="thankyou.html">
-
-            <h2>Apply for Chamber Membership</h2>
-
-            <!-- FIRST NAME -->
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="Name" required autocomplete="given-name" title="Enter your first name">
-
-            <!-- LAST NAME -->
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="Last Name" required autocomplete="family-name" title="Enter your last name">
-
-            <!-- ORGANIZATIONAL TITLE -->
-            <label for="title">Organizational Title</label>
-            <input type="text" id="title" name="Title" autocomplete="organization-title" required
-                pattern="[A-Za-z\\-\\s]{7,}" title="Minimum 7 characters; letters, spaces, and hyphens only">
-
-            <!-- EMAIL -->
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="Email" required autocomplete="email" placeholder="name@example.com"
-                title="Enter a valid email address">
-
-            <!-- MOBILE PHONE -->
-            <label for="phone">Mobile Phone</label>
-            <input type="tel" id="phone" name="Phone" autocomplete="tel" required
-                title="Enter your mobile phone number">
-
-            <!-- BUSINESS NAME -->
-            <label for="orgname">Business / Organization Name</label>
-            <input type="text" id="orgname" name="Org Name" autocomplete="organization" required
-                title="Enter your business or organization name">
-
-            <!-- MEMBERSHIP LEVEL -->
-            <label for="membership">Membership Level</label>
-            <select id="membership" name="Membership" required>
-                <option value="">Select Membership Level</option>
-                <option value="np">NP Membership (np)</option>
-                <option value="bronze">Bronze Membership (bronze)</option>
-                <option value="silver">Silver Membership (silver)</option>
-                <option value="gold">Gold Membership (gold)</option>
-            </select>
-
-            <!-- DESCRIPTION -->
-            <label for="description">Business / Organization Description</label>
-            <textarea id="description" name="Description"></textarea>
-
-            <!-- TIMESTAMP (HIDDEN FIELD) -->
-            <input type="hidden" id="timestamp" name="Timestamp">
-
-            <button type="submit">Submit Application</button>
-
-        </form>
+        <div class="form-and-cards">
 
 
 
+            <form method="get" action="thankyou.html">
 
-        <div class="cards-container">
+                <h2>Apply for Chamber Membership</h2>
 
-            <h2>Membership Levels & Benefits</h2>
+                <!-- FIRST NAME -->
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="Name" required autocomplete="given-name"
+                    title="Enter your first name">
 
-            <div class="membership-card" data-modal="modal-np">
-                <h3>NP Membership</h3>
-                <p>No fee • Non-profit organizations</p>
-                <a href="#" class="more-info">More Info</a>
+                <!-- LAST NAME -->
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="Last Name" required autocomplete="family-name"
+                    title="Enter your last name">
+
+                <!-- ORGANIZATIONAL TITLE -->
+                <label for="title">Organizational Title</label>
+                <input type="text" id="title" name="Title" autocomplete="organization-title" required
+                    pattern="[A-Za-z\\-\\s]{7,}" title="Minimum 7 characters; letters, spaces, and hyphens only">
+
+                <!-- EMAIL -->
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="Email" required autocomplete="email" placeholder="name@example.com"
+                    title="Enter a valid email address">
+
+                <!-- MOBILE PHONE -->
+                <label for="phone">Mobile Phone</label>
+                <input type="tel" id="phone" name="Phone" autocomplete="tel" required
+                    title="Enter your mobile phone number">
+
+                <!-- BUSINESS NAME -->
+                <label for="orgname">Business / Organization Name</label>
+                <input type="text" id="orgname" name="Org Name" autocomplete="organization" required
+                    title="Enter your business or organization name">
+
+                <!-- MEMBERSHIP LEVEL -->
+                <label for="membership">Membership Level</label>
+                <select id="membership" name="Membership" required>
+                    <option value="">Select Membership Level</option>
+                    <option value="np">NP Membership (np)</option>
+                    <option value="bronze">Bronze Membership (bronze)</option>
+                    <option value="silver">Silver Membership (silver)</option>
+                    <option value="gold">Gold Membership (gold)</option>
+                </select>
+
+                <!-- DESCRIPTION -->
+                <label for="description">Business / Organization Description</label>
+                <textarea id="description" name="Description"
+                    title="Enter your a description for your business/organization"></textarea>
+
+                <!-- TIMESTAMP (HIDDEN FIELD) -->
+                <input type="hidden" id="timestamp" name="Timestamp">
+
+                <button type="submit">Submit Application</button>
+
+            </form>
+
+
+
+
+            <div class="cards-container">
+
+                <h2>Membership Levels & Benefits</h2>
+
+                <div class="membership-card" data-modal="modal-np">
+                    <h3>NP Membership</h3>
+                    <p>No fee • Non-profit organizations</p>
+                    <a href="#" class="more-info">More Info</a>
+                </div>
+
+                <div class="membership-card" data-modal="modal-bronze">
+                    <h3>Bronze Membership</h3>
+                    <p>Entry-level benefits</p>
+                    <a href="#" class="more-info">More Info</a>
+                </div>
+
+                <div class="membership-card" data-modal="modal-silver">
+                    <h3>Silver Membership</h3>
+                    <p>Enhanced business visibility</p>
+                    <a href="#" class="more-info">More Info</a>
+                </div>
+
+                <div class="membership-card" data-modal="modal-gold">
+                    <h3>Gold Membership</h3>
+                    <p>Premium benefits and advertising</p>
+                    <a href="#" class="more-info">More Info</a>
+                </div>
             </div>
 
-            <div class="membership-card" data-modal="modal-bronze">
-                <h3>Bronze Membership</h3>
-                <p>Entry-level benefits</p>
-                <a href="#" class="more-info">More Info</a>
+            <!-- 4 MODALS -->
+
+            <div class="modal" id="modal-np">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>NP Membership Benefits</h2>
+                    <p>No fee. Designed for nonprofits. Includes limited directory listing and access to free events.
+                    </p>
+                </div>
             </div>
 
-            <div class="membership-card" data-modal="modal-silver">
-                <h3>Silver Membership</h3>
-                <p>Enhanced business visibility</p>
-                <a href="#" class="more-info">More Info</a>
+            <div class="modal" id="modal-bronze">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Bronze Membership Benefits</h2>
+                    <p>Includes directory listing, small ad space, and event access.</p>
+                </div>
             </div>
 
-            <div class="membership-card" data-modal="modal-gold">
-                <h3>Gold Membership</h3>
-                <p>Premium benefits and advertising</p>
-                <a href="#" class="more-info">More Info</a>
+            <div class="modal" id="modal-silver">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Silver Membership Benefits</h2>
+                    <p>Includes featured listing, newsletter ads, and discounted event booths.</p>
+                </div>
             </div>
+
+            <div class="modal" id="modal-gold">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Gold Membership Benefits</h2>
+                    <p>Includes premium homepage spotlight, full ad package, and exclusive event promotions.</p>
+                </div>
+            </div>
+
+
+
         </div>
 
-        <!-- 4 MODALS -->
-
-        <div class="modal" id="modal-np">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>NP Membership Benefits</h2>
-                <p>No fee. Designed for nonprofits. Includes limited directory listing and access to free events.</p>
-            </div>
-        </div>
-
-        <div class="modal" id="modal-bronze">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Bronze Membership Benefits</h2>
-                <p>Includes directory listing, small ad space, and event access.</p>
-            </div>
-        </div>
-
-        <div class="modal" id="modal-silver">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Silver Membership Benefits</h2>
-                <p>Includes featured listing, newsletter ads, and discounted event booths.</p>
-            </div>
-        </div>
-
-        <div class="modal" id="modal-gold">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Gold Membership Benefits</h2>
-                <p>Includes premium homepage spotlight, full ad package, and exclusive event promotions.</p>
-            </div>
-        </div>
+    </main>
 
 
-
-    </div>
 
     <footer>
 
