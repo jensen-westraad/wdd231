@@ -1,0 +1,206 @@
+:root {
+    --primary: #93e4c1;
+    --accent_1: #3baea0;
+    --accent_2: #118a7e;
+    --accent_3: #1f6f78;
+    --text: #f5f5f5;
+    --text-dark: #333333;
+}
+
+/* Global Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: var(--text-dark);
+    background-color: var(--text);
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--accent_3);
+    color: var(--text);
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header img {
+    width: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+header a.active {
+    border-bottom: 2px solid var(--text);
+}
+
+/* Navigation Links */
+nav a {
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    background-color: var(--accent_3);
+    color: var(--text);
+}
+
+nav a:hover {
+    color: var(--text);
+    background-color: var(--accent_3);
+    border-bottom: 2px solid var(--text);
+}
+
+/* Mobile Menu */
+#menuButton {
+    display: none;
+    background: none;
+    color: var(--text);
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        background-color: var(--accent_3);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 1rem;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    #menuButton {
+        display: block;
+    }
+
+    form {
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    .form-and-cards {
+        flex-direction: column;
+    }
+}
+
+/* Headings */
+h1 {
+    background-color: var(--accent_1);
+    color: #f8f8f8;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* View Toggle Buttons */
+.view-toggle {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.view-toggle button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border: none;
+    border-radius: 6px;
+    background: #ddd;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.view-toggle button.active {
+    background: var(--accent_3);
+    color: var(--text);
+}
+
+.view-toggle button:hover {
+    background: var(--primary);
+    color: var(--text);
+}
+
+
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--text);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    color: var(--text-dark);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 0 10px #333;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: var(--accent_3);
+    color: var(--text);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.social a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.social a img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
