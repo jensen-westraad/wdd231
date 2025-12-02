@@ -1,0 +1,104 @@
+:root {
+    --primary: #8FB339;
+    --accent_1: #C7D59F; 
+    --accent_2: #B7CE63;
+    --accent_3: #4B5842;
+    --text: #DADDD8;
+    --text-dark: #333333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+    color: var(--text-dark);
+    background-color: var(--text);
+}
+
+
+
+h1, h2, h3, h4 {
+    font-family: Arial, sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--accent_3);
+    color: var(--text);
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header img {
+    width: 40px;
+}
+
+
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+main > div {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+main h2 {
+    margin-bottom: 0.5rem;
+    color: var(--accent_3);
+}
+
+main h3 {
+    margin: 0.25rem 0;
+    font-weight: 400;
+}
+
+.color h3 {
+    padding-left: 10px;
+    border-left: 4px solid var(--accent_2);
+}
+
+.typography h3 {
+    padding-left: 10px;
+    border-left: 4px solid var(--accent_3);
+}
+
+.wireframes img {
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+
+footer {
+    background-color: var(--accent_3);
+    color: var(--text);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
