@@ -204,3 +204,25 @@ footer {
     transform: scale(1.1);
     opacity: 0.8;
 }
+
+/* Large screens: 1025px+ */
+
+.discover-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 2rem 4rem;
+}
+
+.discover-card {
+    background: white;
+    padding: 1.2rem;
+    border-radius: 14px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.discover-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}

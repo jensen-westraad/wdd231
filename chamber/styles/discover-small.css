@@ -1,0 +1,27 @@
+/* Small screens: 320–640px */
+.discover-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.discover-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.discover-card button {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/* disable hover effects on mobile */
+@media (hover: none) {
+    .discover-card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}

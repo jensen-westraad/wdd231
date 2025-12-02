@@ -1,0 +1,17 @@
+/* Medium screens: 641–1024px */
+
+.discover-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.discover-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.discover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}

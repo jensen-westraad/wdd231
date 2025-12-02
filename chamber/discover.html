@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -13,7 +12,7 @@
     <meta property="og:description"
         content="Join the Chamber of Commerce with your local businesses and become up-to-date on all new networking opportunities for your own business.">
     <meta property="og:image" content="chamber/images/networking.jpeg">
-    <meta property="og:url" content="https://jensen-westraad.github.io/wdd231/chamber/join.html">
+    <meta property="og:url" content="https://jensen-westraad.github.io/wdd231/chamber/discover.html">
 
     <title>Discover PEAK Commerce | WDD231</title>
 
@@ -26,11 +25,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Libre+Baskerville&display=swap"
         rel="stylesheet">
 
-    <script src="scripts/join.js" type="module"></script>
+    <!-- Updated script file -->
 
 </head>
 
@@ -45,27 +43,28 @@
 
         <nav id="navMenu">
             <ul>
-                <li><a href="https://jensen-westraad.github.io/wdd231" class="active">Home</a></li>
-                <li><a href="https://jensen-westraad.github.io/wdd231/chamber/directory.html" class="active">Chamber</a>
-                </li>
-                <li><a href="https://jensen-westraad.github.io/wdd231/chamber/join.html">Join</a></li>
+                <li><a href="https://jensen-westraad.github.io/wdd231">Home</a></li>
+                <li><a href="directory.html">Chamber</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="#">Final Project</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <h1>Discover Cape Town</h1>
 
+        <!-- Visitor message area -->
+        <section class="visitor-message">
+            <p id="visitMessage"></p>
+        </section>
 
-
-
+        <!-- Discover grid container -->
+        <section id="discoverGrid" class="discover-grid"></section>
 
     </main>
 
-
-
     <footer>
-
         <p>&copy; <span id="year"></span> Jensen Westraad, Cape Town, South Africa</p>
         <p id="lastModified"></p>
 
@@ -75,7 +74,7 @@
             </a>
 
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <img src="images/github-mark-white.png" alt="GitHub logo">
+                <img src="images/github-mark-white.png" alt="Gitithub logo">
             </a>
 
             <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
@@ -84,7 +83,7 @@
         </div>
     </footer>
 
-
+    <script src="scripts/discover.js"></script>
 
 </body>
 
