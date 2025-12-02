@@ -19,11 +19,12 @@ if (!lastVisit) {
 
 localStorage.setItem("last-visit", currentVisit);
 
-// Load JSON using fetch
+// Load JSON
 fetch("data/discover.json")
     .then(response => response.json())
     .then(attractions => buildCards(attractions))
     .catch(error => console.error("Error loading JSON:", error));
+
 
 // Build attraction cards
 function buildCards(attractions) {
@@ -45,6 +46,36 @@ function buildCards(attractions) {
         `;
 
         grid.appendChild(card);
+
+        // EVENT LISTENER FOR MODAL
+        const button = card.querySelector(".learn-more");
+        button.addEventListener("click", () => {
+            openModal(attraction);
+        });
     });
 }
+
+
+// OPEN MODAL
+function openModal(attraction) {
+    document.getElementById("modalTitle").textContent = attraction.name;
+    document.getElementById("modalImage").src = attraction.image;
+    document.getElementById("modalDescription").textContent = attraction.details;
+
+    document.getElementById("modal").style.display = "flex";
+}
+
+
+// CLOSE MODAL
+document.getElementById("closeModal").addEventListener("click", () => {
+    document.getElementById("modal").style.display = "none";
+});
+
+// Close modal if background is clicked
+window.addEventListener("click", (event) => {
+    if (event.target.id === "modal") {
+        document.getElementById("modal").style.display = "none";
+    }
+});
+
 
