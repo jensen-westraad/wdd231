@@ -56,6 +56,35 @@ header a.active {
     border-bottom: 2px solid var(--text);
 }
 
+/* --- GRID LAYOUT: LARGE (DESKTOP) --- */
+.discover-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "title"
+        "visit"
+        "cards";
+    padding: 2rem 4rem;
+}
+
+.page-title {
+    grid-area: title;
+}
+
+.visit-message {
+    grid-area: visit;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.discover-grid {
+    grid-area: cards;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+
 /* Navigation Links */
 nav a {
     border-bottom: 2px solid transparent;

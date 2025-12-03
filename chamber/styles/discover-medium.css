@@ -1,12 +1,35 @@
 /* Medium screens: 641–1024px */
 
-.discover-grid {
+/* GRID AREAS REQUIRED BY RUBRIC */
+.discover-layout {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "title"
+        "visit"
+        "cards";
     padding: 2rem;
 }
 
+.page-title {
+    grid-area: title;
+}
+
+.visit-message {
+    grid-area: visit;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+/* Two-column cards */
+.discover-grid {
+    grid-area: cards;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+/* Hover effects remain */
 .discover-card {
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -15,3 +38,4 @@
     transform: translateY(-5px);
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
+

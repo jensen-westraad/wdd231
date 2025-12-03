@@ -3,25 +3,25 @@
         "name": "Table Mountain",
         "address": "Table Mountain National Park, Cape Town",
         "description": "One of the New 7 Wonders of Nature, offering scenic hiking and cableway trips.",
-        "image": "images/table_mountain.jpg"
+        "image": "images/table_mountain.webp"
     },
     {
         "name": "V&A Waterfront",
         "address": "19 Dock Rd, Cape Town",
         "description": "A bustling harbor attraction with shopping, restaurants, and entertainment.",
-        "image": "images/v_and_a.jpg"
+        "image": "images/v_and_a.webp"
     },
     {
         "name": "Kirstenbosch Gardens",
         "address": "Rhodes Dr, Newlands, Cape Town",
         "description": "A world-renowned botanical garden at the eastern foot of Table Mountain.",
-        "image": "images/kirstenbosch_gardens.jpeg"
+        "image": "images/kirstenbosch_gardens.webp"
     },
     {
         "name": "Bo-Kaap",
         "address": "Bo-Kaap, Cape Town",
         "description": "A colorful cultural neighborhood rich in history and heritage.",
-        "image": "images/bo_kaap.jpg"
+        "image": "images/bo_kaap.webp"
     },
     {
         "name": "Camps Bay Beach",
@@ -33,18 +33,18 @@
         "name": "Two Oceans Aquarium",
         "address": "Dock Rd, V&A Waterfront",
         "description": "An aquarium showcasing marine life from both the Indian and Atlantic Oceans.",
-        "image": "images/aquarium.jpg"
+        "image": "images/aquarium.webp"
     },
     {
         "name": "Signal Hill",
         "address": "Signal Hill Rd, Cape Town",
         "description": "A scenic lookout point known for views of the city and sunset picnics.",
-        "image": "images/signal_hill.jpg"
+        "image": "images/signal_hill.webp"
     },
     {
         "name": "Castle of Good Hope",
         "address": "Darling St, Cape Town",
         "description": "A 17th-century colonial fort and South Africa’s oldest surviving building.",
-        "image": "images/castle_of_good_hope.jpeg"
+        "image": "images/castle_of_good_hope.webp"
     }
 ]
