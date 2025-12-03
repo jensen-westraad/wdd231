@@ -1,6 +1,6 @@
 /* Medium screens: 641–1024px */
 
-/* GRID AREAS REQUIRED BY RUBRIC */
+
 .discover-layout {
     display: grid;
     grid-template-columns: 1fr;
