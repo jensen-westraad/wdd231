@@ -60,7 +60,7 @@ function buildCards(attractions) {
 function openModal(attraction) {
     document.getElementById("modalTitle").textContent = attraction.name;
     document.getElementById("modalImage").src = attraction.image;
-    document.getElementById("modalDescription").textContent = attraction.details;
+    document.getElementById("modalDescription").textContent = attraction.learn;
 
     document.getElementById("modal").style.display = "flex";
 }

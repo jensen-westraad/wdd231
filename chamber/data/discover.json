@@ -2,49 +2,57 @@
     {
         "name": "Table Mountain",
         "address": "Table Mountain National Park, Cape Town",
-        "description": "One of the New 7 Wonders of Nature, offering scenic hiking and cableway trips.",
+        "description": "One of the New 7 Wonders of Nature, offering scenic hiking and cableway trips. ",
+        "learn":"Table Mountain is one of the world’s “New 7 Wonders of Nature,” renowned for its distinctive flat-topped silhouette. The mountain’s ecosystem is part of the unique and globally important Cape Floristic Region: it supports hundreds of plant species — many of them endemic — including types of fynbos that occur nowhere else in the world. For ease of access, there is a cableway that takes visitors up to the summit, offering panoramic views over Cape Town, the harbour, and the surrounding coastline.",
         "image": "images/table_mountain.webp"
     },
     {
         "name": "V&A Waterfront",
         "address": "19 Dock Rd, Cape Town",
         "description": "A bustling harbor attraction with shopping, restaurants, and entertainment.",
+        "learn":"The V&A Waterfront sits on the site of what is considered the oldest working harbour in the Southern Hemisphere. It’s a vibrant mixed-use area combining shopping, residential apartments, hotels, a marina, restaurants and entertainment — making it one of Cape Town’s busiest and most popular destinations for both locals and tourists. From the Waterfront you have easy access to attractions like the sea-life exhibits at the Two Oceans Aquarium — making it a convenient base for exploring both city and marine life.",
         "image": "images/v_and_a.webp"
     },
     {
         "name": "Kirstenbosch Gardens",
         "address": "Rhodes Dr, Newlands, Cape Town",
         "description": "A world-renowned botanical garden at the eastern foot of Table Mountain.",
+        "learn":"Kirstenbosch lies on the eastern slopes of Table Mountain and covers a large area dedicated to preserving South Africa’s indigenous flora. The gardens are managed by the national biodiversity institute and form part of a network of national botanical gardens that represent the diversity of South Africa’s biomes. A highlight is the “Boomslang” — a treetop canopy walkway that gives elevated views over parts of the gardens and surrounding landscapes, offering a unique vantage point for visitors.",
         "image": "images/kirstenbosch_gardens.webp"
     },
     {
         "name": "Bo-Kaap",
         "address": "Bo-Kaap, Cape Town",
         "description": "A colorful cultural neighborhood rich in history and heritage.",
+        "learn":"Bo-Kaap is Cape Town’s oldest surviving residential neighbourhood, with origins dating back to the 1760s when many houses were first built as rental homes for enslaved and exiled people brought by the colonial powers. The district is famous for its brightly coloured houses — painted in lively shades like turquoise, pink, lime-green and pastel hues — a tradition that began when former residents, having gained ownership, painted their homes as an expression of freedom and identity. Bo-Kaap is a cultural hub, historically linked to the Cape Malay community. The area includes some of the oldest mosques in South Africa, and maintains a rich heritage of Islamic faith, music, food and architecture.",
         "image": "images/bo_kaap.webp"
     },
     {
         "name": "Camps Bay Beach",
         "address": "Victoria Rd, Camps Bay",
         "description": "Cape Town’s premier white-sand beach with stunning mountain backdrops.",
+        "learn":"Camps Bay is a stylish suburb along Cape Town’s Atlantic Seaboard, nestled between mountains (the Twelve Apostles) and ocean — making it one of the most scenic and sought-after residential and holiday areas in the city. The beach is known for its soft white sand, clear Atlantic waters, and a palm-lined promenade with restaurants, cafés and bars — perfect for sunbathing, swimming, strolling, and enjoying sundowners. Camps Bay Beach has been awarded Blue Flag status (an international certification for high environmental and safety standards), which speaks to its quality as a safe and well-maintained beach destination. ",
         "image": "images/camps_bay.webp"
     },
     {
         "name": "Two Oceans Aquarium",
         "address": "Dock Rd, V&A Waterfront",
         "description": "An aquarium showcasing marine life from both the Indian and Atlantic Oceans.",
+        "learn":"The Two Oceans Aquarium opened on 13 November 1995 and is located at the V&A Waterfront in Cape Town. It houses about 8,000 animals across more than 300 species — from local marine life to more exotic ocean creatures — giving visitors a glimpse into the rich biodiversity where the Atlantic and Indian Oceans meet.",
         "image": "images/aquarium.webp"
     },
     {
         "name": "Signal Hill",
         "address": "Signal Hill Rd, Cape Town",
         "description": "A scenic lookout point known for views of the city and sunset picnics.",
+        "learn":"Signal Hill is a flat-topped hill in Cape Town, located next to Lion’s Head and Table Mountain — together they frame the skyline of the city for many iconic views. Historically, Signal Hill was used to communicate with ships entering the bay: signal flags indicated weather warnings or anchoring instructions, helping ships prepare before approaching harbour.",
         "image": "images/signal_hill.webp"
     },
     {
         "name": "Castle of Good Hope",
         "address": "Darling St, Cape Town",
         "description": "A 17th-century colonial fort and South Africa’s oldest surviving building.",
+        "learn":"The Castle of Good Hope was built between 1666 and 1679 by the colonial powers (the Dutch East India Company) — making it the oldest existing colonial building in South Africa. It replaced an earlier fort (made of clay and timber) and served as a replenishment station and fortified supply base for ships travelling between Europe and the East Indies. The Castle’s distinctive pentagonal design and its historical role reflect Cape Town’s colonial and maritime heritage: it’s a physical reminder of the strategic importance of the Cape during global sea trade centuries ago.",
         "image": "images/castle_of_good_hope.webp"
     }
 ]
