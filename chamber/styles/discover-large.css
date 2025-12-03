@@ -198,6 +198,14 @@ h1 {
     box-shadow: 0 0 10px #333;
 }
 
+.modal-content img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
 .close {
     float: right;
     cursor: pointer;
@@ -247,13 +255,13 @@ footer {
     background: white;
     padding: 1.2rem;
     border-radius: 14px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .discover-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
 
 .learn-more {
@@ -272,54 +280,3 @@ footer {
     background-color: var(--accent_1);
     transform: scale(1.05);
 }
-
-.modal {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-.modal-content {
-    background: white;
-    padding: 20px;
-    width: 90%;
-    max-width: 450px;
-    border-radius: 10px;
-    color: var(--text-dark);
-    box-shadow: 0 0 15px #222;
-}
-
-.modal-content img {
-    width: 100%;
-    max-height: 250px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin: 10px 0;
-}
-
-.close {
-    float: right;
-    font-size: 22px;
-    cursor: pointer;
-}
-
-.learn-more {
-    padding: 0.6rem 1rem;
-    background: var(--accent_2);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-top: 0.5rem;
-    transition: 0.3s;
-}
-
-.learn-more:hover {
-    background: var(--accent_1);
-    transform: scale(1.05);
-}
-
