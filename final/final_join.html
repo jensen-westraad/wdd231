@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pokemon TCG Visual Lists Page">
+    <meta name="author" content="Jensen Westraad">
+
+    <meta property="og:title" content="Pokemon TCG Visual Lists - Jensen Westraads WDD231 Project">
+    <meta property="og:description" content="Explore Chase Cards of Pokemon TCG's best sets">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <title>Pokemon TCG Visual Lists</title>
+
+    <link rel="stylesheet" href="styles/final_join.css">
+
+    <link rel="icon" href="images/favicon_2.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Libre+Baskerville&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/final_join.js" type="module"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/leafeon_logo_4.jpg" alt="Site Logo">
+            <span class="sitename">Pokémon Set Visual List</span>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <a class="nav-btn" href="final.html">LIST</a>
+        <a class="nav-btn" href="final_join.html">JOIN</a>
+        <a class="nav-btn" href="about.html">ABOUT</a>
+    </nav> 
+
+    <main>
+
+        <div class="form-and-cards">
+
+
+
+            <form method="get" action="final_thankyou.html">
+
+                <h2>Apply for Chamber Membership</h2>
+
+                <!-- FIRST NAME -->
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="Name" required autocomplete="given-name"
+                    title="Enter your first name">
+
+                <!-- LAST NAME -->
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="Last Name" required autocomplete="family-name"
+                    title="Enter your last name">
+
+                <!-- ORGANIZATIONAL TITLE -->
+                <label for="title">Organizational Title</label>
+                <input type="text" id="title" name="Title" autocomplete="organization-title" required
+                    pattern="[A-Za-z\\-\\s]{7,}" title="Minimum 7 characters; letters, spaces, and hyphens only">
+
+                <!-- EMAIL -->
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="Email" required autocomplete="email" placeholder="name@example.com"
+                    title="Enter a valid email address">
+
+                <!-- MOBILE PHONE -->
+                <label for="phone">Mobile Phone</label>
+                <input type="tel" id="phone" name="Phone" autocomplete="tel" required
+                    title="Enter your mobile phone number">
+
+                <!-- BUSINESS NAME -->
+                <label for="orgname">Business / Organization Name</label>
+                <input type="text" id="orgname" name="Org Name" autocomplete="organization" required
+                    title="Enter your business or organization name">
+
+                <!-- MEMBERSHIP LEVEL -->
+                <label for="membership">Membership Level</label>
+                <select id="membership" name="Membership" required>
+                    <option value="">Select Membership Level</option>
+                    <option value="np">NP Membership (np)</option>
+                    <option value="bronze">Bronze Membership (bronze)</option>
+                    <option value="silver">Silver Membership (silver)</option>
+                    <option value="gold">Gold Membership (gold)</option>
+                </select>
+
+                <!-- DESCRIPTION -->
+                <label for="description">Business / Organization Description</label>
+                <textarea id="description" name="Description"
+                    title="Enter your a description for your business/organization"></textarea>
+
+                <!-- TIMESTAMP (HIDDEN FIELD) -->
+                <input type="hidden" id="timestamp" name="Timestamp">
+
+                <button type="submit">Submit Application</button>
+
+            </form>
+
+
+
+
+            <div class="cards-container">
+
+                <h2>Membership Levels & Benefits</h2>
+
+                <div class="membership-card" data-modal="modal-np">
+                    <h3>NP Membership</h3>
+                    <p>No fee • Non-profit organizations</p>
+                    <a href="#" class="more-info">More Info</a>
+                </div>
+
+                <div class="membership-card" data-modal="modal-bronze">
+                    <h3>Bronze Membership</h3>
+                    <p>Entry-level benefits</p>
+                    <a href="#" class="more-info">More Info</a>
+                </div>
+
+                <div class="membership-card" data-modal="modal-silver">
+                    <h3>Silver Membership</h3>
+                    <p>Enhanced business visibility</p>
+                    <a href="#" class="more-info">More Info</a>
+                </div>
+
+                <div class="membership-card" data-modal="modal-gold">
+                    <h3>Gold Membership</h3>
+                    <p>Premium benefits and advertising</p>
+                    <a href="#" class="more-info">More Info</a>
+                </div>
+            </div>
+
+            <!-- 4 MODALS -->
+
+            <div class="modal" id="modal-np">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>NP Membership Benefits</h2>
+                    <p>No fee. Designed for nonprofits. Includes limited directory listing and access to free events.
+                    </p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-bronze">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Bronze Membership Benefits</h2>
+                    <p>Includes directory listing, small ad space, and event access.</p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-silver">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Silver Membership Benefits</h2>
+                    <p>Includes featured listing, newsletter ads, and discounted event booths.</p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-gold">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Gold Membership Benefits</h2>
+                    <p>Includes premium homepage spotlight, full ad package, and exclusive event promotions.</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+
+
+    <footer>
+
+        <p>&copy; <span id="year"></span> Jensen Westraad, Cape Town, South Africa</p>
+        <p id="lastModified"></p>
+
+    
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pokemon TCG Visual Lists Page">
+    <meta name="author" content="Jensen Westraad">
+
+    <meta property="og:title" content="Pokemon TCG Visual Lists - Jensen Westraads WDD231 Project">
+    <meta property="og:description" content="Explore Chase Cards of Pokemon TCG's best sets">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <title>Pokemon TCG Visual Lists</title>
+
+    <link rel="stylesheet" href="styles/final-large.css">
+    <link rel="icon" href="images/#.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/leafeon_logo_4.jpg" alt="Site Logo">
+            <span class="sitename">Pokémon Set Visual List</span>
+        </div>
+    </header>
+
+   <nav class="main-nav">
+        <a class="nav-btn " href="final.html">LIST</a>
+        <a class="nav-btn" href="final_join.html">JOIN</a>
+        <a class="nav-btn" href="about.html">ABOUT</a>
+    </nav> 
+
+    <main>
+
+        <!-- LIST PAGE -->
+        <section id="listPage" class="page active">
+
+            <h2>Set Card List</h2>
+
+            <!-- LOADING SPINNER -->
+            <div id="loadingSpinner" class="spinner hidden"></div>
+
+            <div id="cardGrid" class="card-grid"></div>
+        </section>
+
+        <!-- JOIN PAGE -->
+        <section id="joinPage" class="page">
+            <h2>Join the Collector Club</h2>
+            <p>More content coming soon.</p>
+        </section>
+
+        <!-- ABOUT PAGE -->
+        <section id="aboutPage" class="page">
+            <h2>About This Project</h2>
+            <p>This is a WDD231 Pokémon TCG visual listing tool created by Jensen Westraad.</p>
+        </section>
+
+        <div id="cardGrid" class="card-grid"></div>
+
+        <!-- CARD MODAL -->
+        <div id="cardModal" class="modal hidden">
+            <div class="modal-content fade-in">
+                <span id="closeModal" class="close">&times;</span>
+                <h2 id="modalTitle"></h2>
+                <img id="modalImage" src="" alt="">
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <footer>
+        <p>&copy; <span id="year"></span> Jensen Westraad</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/final.js"></script>
+</body>
+
+</html>
