@@ -1,65 +1,115 @@
 {
-    "cards":[
-    
-    {
-        "name": "Ludicolo",
-        "image": "images/ludicolo_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-    {
-        "name": "Nymble",
-        "image": "images/nymble_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-    {
-        "name": "Dewgong",
-        "image": "images/dewgong_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-    {
-        "name": "Piplup",
-        "image": "images/piplup_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-    {
-        "name": "Yamper",
-        "image": "images/yamper_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-    {
-        "name": "Flygon",
-        "image": "images/flygon_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-    {
-        "name": "Wigglytuff",
-        "image": "images/wigglytuff_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-    {
-        "name": "Wooper",
-        "image": "images/wooper_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-    {
-        "name": "Zacian",
-        "image": "images/zacian_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-    {
-        "name": "Meowth",
-        "image": "images/meowth_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-    {
-        "name": "Togedemaru",
-        "image": "images/togedemaru_card.webp",
-        "description": "The iconic Base Set Charizard."
-    },
-     {
-        "name": "Toxtricity",
-        "image": "images/toxtricity_card.webp",
-        "description": "The iconic Base Set Charizard."
-    }
-]
+    "cards": [
+        {
+            "name": "Ludicolo",
+            "image": "images/ludicolo_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Nymble",
+            "image": "images/nymble_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Dewgong",
+            "image": "images/dewgong_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Piplup",
+            "image": "images/piplup_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Yamper",
+            "image": "images/yamper_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Flygon",
+            "image": "images/flygon_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Wigglytuff",
+            "image": "images/wigglytuff_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Wooper",
+            "image": "images/wooper_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Zacian",
+            "image": "images/zacian_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Meowth",
+            "image": "images/meowth_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Togedemaru",
+            "image": "images/togedemaru_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Toxtricity",
+            "image": "images/toxtricity_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Ambipom",
+            "image": "images/ambipom_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Oricorio",
+            "image": "images/oricorio_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Rotom",
+            "image": "images/rotom_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Empoleon",
+            "image": "images/empoleon_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Mega Heracross",
+            "image": "images/mega_heracross_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Mega Sharpedo",
+            "image": "images/mega_sharpedo_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Mismagius",
+            "image": "images/mismagius_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Mega Charizard",
+            "image": "images/mega_charizard_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Special Mega Charizard",
+            "image": "images/special_mega_charizard_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Golden Mega Charizard",
+            "image": "images/golden_mega_charizard_card.webp",
+            "description": "The iconic Base Set Charizard."
+        }
+
+    ]
 }

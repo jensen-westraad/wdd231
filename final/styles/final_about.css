@@ -1,0 +1,136 @@
+:root {
+    --primary: #8FB339;
+    --accent_1: #C7D59F;
+    --accent_2: #B7CE63;
+    --accent_3: #4B5842;
+    --text: #DADDD8;
+    --text-dark: #333;
+}
+
+/* GENERAL */
+body {
+    font-family: "Quicksand", sans-serif;
+    background: var(--text);
+    color: var(--text-dark);
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--accent_3);
+    color: var(--text);
+    padding: 1rem 2rem;
+}
+header img {
+    width: 45px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: .75rem;
+    background: var(--accent_2);
+}
+.nav-btn {
+    padding: .75rem 2rem;
+    background: var(--accent_1);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.nav-btn.active,
+.nav-btn:hover {
+    background: var(--primary);
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+/* INTRO */
+.intro-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* GRID LAYOUT */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* INFO BOXES */
+.about-box {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+.about-box h3 {
+    margin-top: 1rem;
+    color: var(--accent_3);
+}
+
+/* FEATURED CARD */
+.featured-card-box {
+    text-align: center;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+.featured-card-box img {
+    width: 90%;
+    border-radius: 12px;
+    padding: .5rem;
+    background: var(--accent_1);
+}
+
+.note {
+    font-size: .85rem;
+    margin-top: .5rem;
+    color: var(--primary);
+}
+
+/* CTA BUTTON */
+.cta-btn {
+    display: block;
+    margin: 1rem auto;
+    background: var(--primary);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cta-btn:hover {
+    background: var(--accent_3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
+ 
+footer {
+    background-color: var(--accent_3);
+    color: var(--text);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
