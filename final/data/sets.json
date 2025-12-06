@@ -1,169 +1,164 @@
 {
     "cards": [
         {
-            "name": "Ludicolo",
+            "name": "Ludicolo (095/094)",
             "image": "images/ludicolo_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $3.33"
         },
         {
-            "name": "Nymble",
+            "name": "Nymble (096/094)",
             "image": "images/nymble_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $1.34"
         },
         {
-            "name": "Dewgong",
+            "name": "Dewgong (097/094)",
             "image": "images/dewgong_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $5.21"
         },
         {
-            "name": "Piplup",
+            "name": "Piplup (098/094)",
             "image": "images/piplup_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $16.91"
         },
         {
-            "name": "Yamper",
+            "name": "Yamper (099/094)",
             "image": "images/yamper_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $2.97"
         },
         {
-            "name": "Flygon",
-            "image": "images/flygon_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Wigglytuff",
-            "image": "images/wigglytuff_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Wooper",
-            "image": "images/wooper_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Zacian",
+            "name": "Zacian (100/094)",
             "image": "images/zacian_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $5.00"
         },
         {
-            "name": "Meowth",
-            "image": "images/meowth_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "name": "Flygon (101/094)",
+            "image": "images/flygon_card.webp",
+            "description": "Market Price: $6.07"
         },
         {
-            "name": "Togedemaru",
-            "image": "images/togedemaru_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "name": "Wooper (102/094)",
+            "image": "images/wooper_card.webp",
+            "description": "Market Price: $4.69"
         },
         {
-            "name": "Toxtricity",
+            "name": "Toxtricity (103/094)",
             "image": "images/toxtricity_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $3.20"
         },
         {
-            "name": "Ambipom",
+            "name": "Togedemaru (104/094)",
+            "image": "images/togedemaru_card.webp",
+            "description": "Market Price: $2.39"
+        },
+        {
+            "name": "Wigglytuff (105/094)",
+            "image": "images/wigglytuff_card.webp",
+            "description": "Market Price: $6.64"
+        },
+        {
+            "name": "Meowth (106/094)",
+            "image": "images/meowth_card.webp",
+            "description": "Market Price: $19.62"
+        },
+        {
+            "name": "Ambipom (107/094)",
             "image": "images/ambipom_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $2.55"
         },
         {
-            "name": "Oricorio",
-            "image": "images/oricorio_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Rotom",
-            "image": "images/rotom_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Empoleon",
-            "image": "images/empoleon_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Mega Heracross",
+            "name": "Mega Heracross (108/094)",
             "image": "images/mega_heracross_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $4.03"
         },
         {
-            "name": "Mega Sharpedo",
-            "image": "images/mega_sharpedo_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Mismagius",
-            "image": "images/mismagius_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Mega Charizard",
+            "name": "Mega Charizard (109/094)",
             "image": "images/mega_charizard_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $40.45"
         },
         {
-            "name": "Special Mega Charizard",
-            "image": "images/special_mega_charizard_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "name": "Oricorio (110/094)",
+            "image": "images/oricorio_card.webp",
+            "description": "Market Price: $3.18"
         },
         {
-            "name": "Golden Mega Charizard",
-            "image": "images/golden_mega_charizard_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "name": "Rotom (111/094)",
+            "image": "images/rotom_card.webp",
+            "description": "Market Price: $2.13"
         },
         {
-            "name": "Special Mega Charizard",
-            "image": "images/special_mega_charizard_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "name": "Mismagius (112/094)",
+            "image": "images/mismagius_card.webp",
+            "description": "Market Price: $2.54"
         },
         {
-            "name": "Dawn",
-            "image": "images/basic_dawn_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "name": "Mega Sharpedo (113/094)",
+            "image": "images/mega_sharpedo_card.webp",
+            "description": "Market Price: $5.30"
         },
         {
-            "name": "Mega Lopunny",
+            "name": "Empoleon (114/094)",
+            "image": "images/empoleon_card.webp",
+            "description": "Market Price: $2.72"
+        },
+        {
+            "name": "Mega Lopunny (115/094)",
             "image": "images/mega_lopunny_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $6.59"
         },
         {
-            "name": "Battle Cage",
+            "name": "Battle Cage (116/094)",
             "image": "images/battle_cage_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $4.10"
         },
         {
-            "name": "Special Rotom",
-            "image": "images/special_rotom_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Switch",
-            "image": "images/switch_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Ignition Energy",
-            "image": "images/ignition_energy_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Fire Breather",
-            "image": "images/firebreather_trainer_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Grimsley's Move",
-            "image": "images/grimsleys_move_trainer_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Special Dawn",
-            "image": "images/special_dawn_card.webp",
-            "description": "The iconic Base Set Charizard."
-        },
-        {
-            "name": "Blowtorch",
+            "name": "Blowtorch (117/094)",
             "image": "images/blowtorch_card.webp",
-            "description": "The iconic Base Set Charizard."
+            "description": "Market Price: $1.55"
+        },
+        {
+            "name": "Dawn (118/094)",
+            "image": "images/basic_dawn_card.webp",
+            "description": "Market Price: $13.82"
+        },
+        {
+            "name": "Fire Breather (119/094)",
+            "image": "images/firebreather_trainer_card.webp",
+            "description": "Market Price: $2.46"
+        },
+        {
+            "name": "Grimsley's Move (120/094)",
+            "image": "images/grimsleys_move_trainer_card.webp",
+            "description": "Market Price: $2.05"
+        },
+        {
+            "name": "Switch (123/094)",
+            "image": "images/switch_card.webp",
+            "description": "Market Price: $2.73"
+        },
+        {
+            "name": "Ignition Energy (124/094)",
+            "image": "images/ignition_energy_card.webp",
+            "description": "Market Price: $2.35"
+        },
+        {
+            "name": "Special Mega Charizard (125/094)",
+            "image": "images/special_mega_charizard_card.webp",
+            "description": "Market Price: $607"
+        },
+        {
+            "name": "Special Rotom (126/094)",
+            "image": "images/special_rotom_card.webp",
+            "description": "Market Price: $31.46"
+        },
+        {
+            "name": "Special Dawn (129/094)",
+            "image": "images/special_dawn_card.webp",
+            "description": "Market Price: $45.76"
+        },
+        {
+            "name": "Golden Mega Charizard (130/094)",
+            "image": "images/golden_mega_charizard_card.webp",
+            "description": "Market Price: $452"
         }
     ]
 }

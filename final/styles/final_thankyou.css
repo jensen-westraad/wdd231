@@ -104,7 +104,7 @@ header a.active {
 }
 
 h1 {
-    background-color: var(--accent_1);
+    background-color: var(--accent_3);
     color: var(--text);
     padding: 1rem;
     text-align: center;

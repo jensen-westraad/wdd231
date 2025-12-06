@@ -38,7 +38,7 @@
         </div>
     </header>
 
-    <nav class="main-nav">
+    <nav id="navMenu" class="main-nav">
         <a class="nav-btn" href="final.html">LIST</a>
         <a class="nav-btn" href="final_join.html">JOIN</a>
         <a class="nav-btn" href="final_about.html">ABOUT</a>
@@ -52,7 +52,7 @@
 
             <form method="get" action="final_thankyou.html">
 
-                <h2>Apply for Chamber Membership</h2>
+                <h2>Apply for our Membership Program</h2>
 
                 <!-- FIRST NAME -->
                 <label for="fname">First Name</label>
@@ -64,8 +64,8 @@
                 <input type="text" id="lname" name="Last Name" required autocomplete="family-name"
                     title="Enter your last name">
 
-                <!-- ORGANIZATIONAL TITLE -->
-                <label for="title">Organizational Title</label>
+                <!-- TCG TITLE -->
+                <label for="title">TCG Title</label>
                 <input type="text" id="title" name="Title" autocomplete="organization-title" required
                     pattern="[A-Za-z\\-\\s]{7,}" title="Minimum 7 characters; letters, spaces, and hyphens only">
 
@@ -79,23 +79,20 @@
                 <input type="tel" id="phone" name="Phone" autocomplete="tel" required
                     title="Enter your mobile phone number">
 
-                <!-- BUSINESS NAME -->
-                <label for="orgname">Business / Organization Name</label>
-                <input type="text" id="orgname" name="Org Name" autocomplete="organization" required
-                    title="Enter your business or organization name">
+              
 
                 <!-- MEMBERSHIP LEVEL -->
                 <label for="membership">Membership Level</label>
                 <select id="membership" name="Membership" required>
                     <option value="">Select Membership Level</option>
-                    <option value="np">NP Membership (np)</option>
-                    <option value="bronze">Bronze Membership (bronze)</option>
-                    <option value="silver">Silver Membership (silver)</option>
-                    <option value="gold">Gold Membership (gold)</option>
+                    <option value="Journeyer">Journeyer</option>
+                    <option value="Trainer">Trainer Membership</option>
+                    <option value="Champion">Champion Membership</option>
+                    
                 </select>
 
                 <!-- DESCRIPTION -->
-                <label for="description">Business / Organization Description</label>
+                <label for="description">What got you into Pokemon TCG?</label>
                 <textarea id="description" name="Description"
                     title="Enter your a description for your business/organization"></textarea>
 
@@ -114,64 +111,60 @@
                 <h2>Membership Levels & Benefits</h2>
 
                 <div class="membership-card" data-modal="modal-np">
-                    <h3>NP Membership</h3>
-                    <p>No fee • Non-profit organizations</p>
-                    <a href="#" class="more-info">More Info</a>
+                    <h3>Journeyer</h3>
+                    <p>No fee • Access to visual list and newsletter</p>
+
                 </div>
 
-                <div class="membership-card" data-modal="modal-bronze">
-                    <h3>Bronze Membership</h3>
-                    <p>Entry-level benefits</p>
-                    <a href="#" class="more-info">More Info</a>
+                <div class="membership-card" data-modal="modal-trainer">
+                    <h3>Trainer Membership</h3>
+                    <p>R500 • Entry-level benefits</p>
+
                 </div>
 
-                <div class="membership-card" data-modal="modal-silver">
-                    <h3>Silver Membership</h3>
-                    <p>Enhanced business visibility</p>
-                    <a href="#" class="more-info">More Info</a>
-                </div>
+                <div class="membership-card" data-modal="modal-champ">
+                    <h3>Champion Membership</h3>
+                    <p>R2500 • Enhanced-level benefits</p>
 
-                <div class="membership-card" data-modal="modal-gold">
-                    <h3>Gold Membership</h3>
-                    <p>Premium benefits and advertising</p>
-                    <a href="#" class="more-info">More Info</a>
                 </div>
             </div>
 
-            <!-- 4 MODALS -->
+            <!-- 3 MODALS -->
 
             <div class="modal" id="modal-np">
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <h2>NP Membership Benefits</h2>
-                    <p>No fee. Designed for nonprofits. Includes limited directory listing and access to free events.
-                    </p>
+                    <h2 class="modal-title"></h2>
+                    <img src="" alt="" class="modal-image">
+                    <p class="modal-description"></p>
                 </div>
             </div>
+            
 
-            <div class="modal" id="modal-bronze">
+
+            <div class="modal" id="modal-trainer">
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <h2>Bronze Membership Benefits</h2>
-                    <p>Includes directory listing, small ad space, and event access.</p>
+                    <h2 class="modal-title"></h2>
+                    <img src="" alt="" class="modal-image">
+                    <p class="modal-description"></p>
                 </div>
             </div>
+            
 
-            <div class="modal" id="modal-silver">
+
+            <div class="modal" id="modal-champ">
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <h2>Silver Membership Benefits</h2>
-                    <p>Includes featured listing, newsletter ads, and discounted event booths.</p>
+                    <h2 class="modal-title"></h2>
+                    <img src="" alt="" class="modal-image">
+                    <p class="modal-description"></p>
                 </div>
             </div>
+            
 
-            <div class="modal" id="modal-gold">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <h2>Gold Membership Benefits</h2>
-                    <p>Includes premium homepage spotlight, full ad package, and exclusive event promotions.</p>
-                </div>
-            </div>
+
+
 
 
 

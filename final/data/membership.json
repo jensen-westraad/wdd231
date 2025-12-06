@@ -1,0 +1,20 @@
+{
+    "modal-np": {
+        "title": "Journeyer",
+        "image": "images/pokemon_market_graph.webp",
+        "alt": "Journeyer Benefits",
+        "description": "Just for applying, you gain access to our newsletter providing relevant info on the Pokemon market."
+    },
+    "modal-trainer": {
+        "title": "Trainer Membership",
+        "image": "images/three_boosters_reward.webp",
+        "alt": "Trainer Membership Benefits",
+        "description": "Includes 3 Monthly TCG booster packs of the current set being displayed on our visual list home page."
+    },
+    "modal-champ": {
+        "title": "Champion Membership",
+        "image": "images/full_etb_reward.webp",
+        "alt": "Champion Membership Benefits",
+        "description": "Includes 1 featured Elite Trainer Box of the current set being displayed on our visual list home page, as well as discounts on vendor event passes."
+    }
+}
