@@ -3,162 +3,194 @@
         {
             "name": "Ludicolo (095/094)",
             "image": "images/ludicolo_card.webp",
-            "description": "Market Price: $3.33"
+            "description": "Market Price: $3.33",
+            "graded": "Highly Graded: $30.00"
         },
         {
             "name": "Nymble (096/094)",
             "image": "images/nymble_card.webp",
-            "description": "Market Price: $1.34"
+            "description": "Market Price: $1.34",
+            "graded": "Highly Graded: $10.00"
         },
         {
             "name": "Dewgong (097/094)",
             "image": "images/dewgong_card.webp",
-            "description": "Market Price: $5.21"
+            "description": "Market Price: $5.21",
+            "graded": "Highly Graded: $24.99"
         },
         {
             "name": "Piplup (098/094)",
             "image": "images/piplup_card.webp",
-            "description": "Market Price: $16.91"
+            "description": "Market Price: $16.91",
+            "graded": "Highly Graded: $59.99"
         },
         {
             "name": "Yamper (099/094)",
             "image": "images/yamper_card.webp",
-            "description": "Market Price: $2.97"
+            "description": "Market Price: $2.97",
+            "graded": "Highly Graded $15.91"
         },
         {
             "name": "Zacian (100/094)",
             "image": "images/zacian_card.webp",
-            "description": "Market Price: $5.00"
+            "description": "Market Price: $5.00",
+            "graded": "Highly Graded: $34.99"
         },
         {
             "name": "Flygon (101/094)",
             "image": "images/flygon_card.webp",
-            "description": "Market Price: $6.07"
+            "description": "Market Price: $6.07",
+            "graded": "Highly Graded: $50.00"
         },
         {
             "name": "Wooper (102/094)",
             "image": "images/wooper_card.webp",
-            "description": "Market Price: $4.69"
+            "description": "Market Price: $4.69",
+            "graded": "Highly Graded: $25.00"
         },
         {
             "name": "Toxtricity (103/094)",
             "image": "images/toxtricity_card.webp",
-            "description": "Market Price: $3.20"
+            "description": "Market Price: $3.20",
+            "graded": "Highly Graded: $15.00"
         },
         {
             "name": "Togedemaru (104/094)",
             "image": "images/togedemaru_card.webp",
-            "description": "Market Price: $2.39"
+            "description": "Market Price: $2.39",
+            "graded": "Highly Graded: $30.00"
         },
         {
             "name": "Wigglytuff (105/094)",
             "image": "images/wigglytuff_card.webp",
-            "description": "Market Price: $6.64"
+            "description": "Market Price: $6.64",
+            "graded": "Highly Graded: $34.99"
         },
         {
             "name": "Meowth (106/094)",
             "image": "images/meowth_card.webp",
-            "description": "Market Price: $19.62"
+            "description": "Market Price: $19.62",
+            "graded": "Highly Graded: $49.99"
         },
         {
             "name": "Ambipom (107/094)",
             "image": "images/ambipom_card.webp",
-            "description": "Market Price: $2.55"
+            "description": "Market Price: $2.55",
+            "graded": "Highly Graded: $15.99"
         },
         {
             "name": "Mega Heracross (108/094)",
             "image": "images/mega_heracross_card.webp",
-            "description": "Market Price: $4.03"
+            "description": "Market Price: $4.03",
+            "graded": "Highly Graded: $23.69"
         },
         {
             "name": "Mega Charizard (109/094)",
             "image": "images/mega_charizard_card.webp",
-            "description": "Market Price: $40.45"
+            "description": "Market Price: $40.45",
+            "graded": "Highly Graded: $197.00"
         },
         {
             "name": "Oricorio (110/094)",
             "image": "images/oricorio_card.webp",
-            "description": "Market Price: $3.18"
+            "description": "Market Price: $3.18",
+            "graded": "Highly Graded: $11.00"
         },
         {
             "name": "Rotom (111/094)",
             "image": "images/rotom_card.webp",
-            "description": "Market Price: $2.13"
+            "description": "Market Price: $2.13",
+            "graded": "Highly Graded: $14.00"
         },
         {
             "name": "Mismagius (112/094)",
             "image": "images/mismagius_card.webp",
-            "description": "Market Price: $2.54"
+            "description": "Market Price: $2.54",
+            "graded": "Highly Graded: $24.00"
         },
         {
             "name": "Mega Sharpedo (113/094)",
             "image": "images/mega_sharpedo_card.webp",
-            "description": "Market Price: $5.30"
+            "description": "Market Price: $5.30",
+            "graded": "Highly Graded: $10.07"
         },
         {
             "name": "Empoleon (114/094)",
             "image": "images/empoleon_card.webp",
-            "description": "Market Price: $2.72"
+            "description": "Market Price: $2.72",
+            "graded": "Highly Graded: $34.99"
         },
         {
             "name": "Mega Lopunny (115/094)",
             "image": "images/mega_lopunny_card.webp",
-            "description": "Market Price: $6.59"
+            "description": "Market Price: $6.67",
+            "graded": "Highly Graded: $23.00"
         },
         {
             "name": "Battle Cage (116/094)",
             "image": "images/battle_cage_card.webp",
-            "description": "Market Price: $4.10"
+            "description": "Market Price: $4.10",
+            "graded": "Highly Graded: $25.00"
         },
         {
             "name": "Blowtorch (117/094)",
             "image": "images/blowtorch_card.webp",
-            "description": "Market Price: $1.55"
+            "description": "Market Price: $1.55",
+            "graded": "Highly Graded: $25.00"
         },
         {
             "name": "Dawn (118/094)",
             "image": "images/basic_dawn_card.webp",
-            "description": "Market Price: $13.82"
+            "description": "Market Price: $13.82",
+            "graded": "Highly Graded: $47.00"
         },
         {
             "name": "Fire Breather (119/094)",
             "image": "images/firebreather_trainer_card.webp",
-            "description": "Market Price: $2.46"
+            "description": "Market Price: $2.46",
+            "graded": "Highly Graded: $29.99"
         },
         {
             "name": "Grimsley's Move (120/094)",
             "image": "images/grimsleys_move_trainer_card.webp",
-            "description": "Market Price: $2.05"
+            "description": "Market Price: $2.05",
+            "graded": "Highly Graded: $45.00"
         },
         {
             "name": "Switch (123/094)",
             "image": "images/switch_card.webp",
-            "description": "Market Price: $2.73"
+            "description": "Market Price: $2.73",
+            "graded": "Highly Graded: $11.49"
         },
         {
             "name": "Ignition Energy (124/094)",
             "image": "images/ignition_energy_card.webp",
-            "description": "Market Price: $2.35"
+            "description": "Market Price: $2.35",
+            "graded": "Highly Graded: $17.69"
         },
         {
             "name": "Special Mega Charizard (125/094)",
             "image": "images/special_mega_charizard_card.webp",
-            "description": "Market Price: $607"
+            "description": "Market Price: $607.00",
+            "graded": "Highly Graded: $2222.00"
         },
         {
             "name": "Special Rotom (126/094)",
             "image": "images/special_rotom_card.webp",
-            "description": "Market Price: $31.46"
+            "description": "Market Price: $31.46",
+            "graded": "Highly Graded: $60.00"
         },
         {
             "name": "Special Dawn (129/094)",
             "image": "images/special_dawn_card.webp",
-            "description": "Market Price: $45.76"
+            "description": "Market Price: $45.76",
+            "graded": "Highly Graded: $225"
         },
         {
             "name": "Golden Mega Charizard (130/094)",
             "image": "images/golden_mega_charizard_card.webp",
-            "description": "Market Price: $452"
+            "description": "Market Price: $452.00",
+            "graded": "Highly Graded: $100,000"
         }
     ]
 }

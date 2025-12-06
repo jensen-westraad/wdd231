@@ -107,6 +107,7 @@ async function loadCards() {
                 <img src="${card.image}" alt="${card.name}">
                 <h3>${card.name}</h3>
                 <p>${card.description}</p>
+                <p>${card.graded}</p>
             `;
 
             container.appendChild(div);
