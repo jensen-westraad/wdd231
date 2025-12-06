@@ -7,8 +7,15 @@
     --text-dark: #333;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
     background: var(--text);
     color: var(--text-dark);
 }
@@ -22,8 +29,30 @@ header {
     color: var(--text);
     padding: 1rem 2rem;
 }
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 header img {
     width: 45px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+header a.active {
+    border-bottom: 2px solid var(--text);
 }
 
 /* NAVIGATION */
@@ -56,12 +85,37 @@ main {
     margin: 2rem auto;
 }
 
+#listPage h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* HERO LOGO */
+.hero-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 1.5rem 0;  /* spacing above and below */
+}
+
+.hero-logo img {
+    width: 100%;
+    max-width: 480px;        /* controls overall size on desktop */
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,0.25)); /* optional glow */
+}
+
+
+
 
 /* CARD GRID */
 .card-grid {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(5, 1fr); /* 5 columns on desktop */
+    margin: 0 auto;  
+    
 }
 
 /* Tablet: 3 columns */
@@ -162,4 +216,22 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.social a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.social a img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
 }
