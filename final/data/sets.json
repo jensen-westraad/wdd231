@@ -109,7 +109,61 @@
             "name": "Golden Mega Charizard",
             "image": "images/golden_mega_charizard_card.webp",
             "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Special Mega Charizard",
+            "image": "images/special_mega_charizard_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Dawn",
+            "image": "images/basic_dawn_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Mega Lopunny",
+            "image": "images/mega_lopunny_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Battle Cage",
+            "image": "images/battle_cage_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Special Rotom",
+            "image": "images/special_rotom_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Switch",
+            "image": "images/switch_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Ignition Energy",
+            "image": "images/ignition_energy_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Fire Breather",
+            "image": "images/firebreather_trainer_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Grimsley's Move",
+            "image": "images/grimsleys_move_trainer_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Special Dawn",
+            "image": "images/special_dawn_card.webp",
+            "description": "The iconic Base Set Charizard."
+        },
+        {
+            "name": "Blowtorch",
+            "image": "images/blowtorch_card.webp",
+            "description": "The iconic Base Set Charizard."
         }
-
     ]
 }

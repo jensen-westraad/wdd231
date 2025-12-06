@@ -23,6 +23,7 @@ header {
     color: var(--text);
     padding: 1rem 2rem;
 }
+
 header img {
     width: 45px;
 }
@@ -33,6 +34,7 @@ header img {
     padding: .75rem;
     background: var(--accent_2);
 }
+
 .nav-btn {
     padding: .75rem 2rem;
     background: var(--accent_1);
@@ -43,6 +45,7 @@ header img {
     text-decoration: none;
     color: black;
 }
+
 .nav-btn.active,
 .nav-btn:hover {
     background: var(--primary);
@@ -73,7 +76,7 @@ main {
     background: white;
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 .about-box h3 {
@@ -87,7 +90,7 @@ main {
     background: white;
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 .featured-card-box img {
@@ -126,7 +129,7 @@ main {
         grid-template-columns: 1fr;
     }
 }
- 
+
 footer {
     background-color: var(--accent_3);
     color: var(--text);
