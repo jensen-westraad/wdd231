@@ -235,3 +235,10 @@ footer {
     transform: scale(1.1);
     opacity: 0.8;
 }
+
+#visitMessage {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #444;
+}

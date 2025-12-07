@@ -130,3 +130,13 @@ function openModal(card) {
 
 // INIT
 loadSets();
+
+const messageEl = document.getElementById("visitMessage");
+
+if (localStorage.hasVisited) {
+    messageEl.textContent = "Welcome back!";
+} else {
+    messageEl.textContent = "Welcome for the first time!";
+    localStorage.hasVisited = "true";
+}
+
