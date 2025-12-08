@@ -73,7 +73,7 @@ header a.active {
 .nav-btn.active,
 .nav-btn:hover {
     background: var(--primary);
-    color: white;
+    color: var(--text);
 }
 
 /* PAGE */
@@ -119,7 +119,7 @@ main {
 
 
 .card {
-    background: white;
+    background: var(--text);
     padding: 1rem;
     border-radius: 12px;
     box-shadow: 0 3px 8px rgba(0,0,0,.15);
@@ -152,7 +152,7 @@ main {
 .modal.hidden { display: none; }
 
 .modal-content {
-    background: white;
+    background: var(--text);
     padding: 2rem;
     border-radius: 12px;
     width: 90%;
