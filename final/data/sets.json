@@ -157,6 +157,18 @@
             "graded": "Highly Graded: $45.00"
         },
         {
+            "name": "Punk Helmet (121/094)",
+            "image": "images/punk_helmet_card.webp",
+            "description": "Market Price: $1.08",
+            "graded": "Highly Graded: $15.00"
+        },
+        {
+            "name": "Sacred Charm (122/094)",
+            "image": "images/sacred_charm_card.webp",
+            "description": "Market Price: $1.18",
+            "graded": "Highly Graded: $9.99"
+        },
+        {
             "name": "Switch (123/094)",
             "image": "images/switch_card.webp",
             "description": "Market Price: $2.73",
@@ -181,16 +193,28 @@
             "graded": "Highly Graded: $60.00"
         },
         {
+            "name": "Special Mega Sharpedo (127/094)",
+            "image": "images/special_mega_sharpedo_card.webp",
+            "description": "Market Price: $48.49",
+            "graded": "Highly Graded: $100.00"
+        },
+        {
+            "name": "Special Mega Lopunny (128/094)",
+            "image": "images/special_mega_lopunny_card.webp",
+            "description": "Market Price: $35.82",
+            "graded": "Highly Graded: $360.00"
+        },
+        {
             "name": "Special Dawn (129/094)",
             "image": "images/special_dawn_card.webp",
             "description": "Market Price: $45.76",
-            "graded": "Highly Graded: $225"
+            "graded": "Highly Graded: $225.00"
         },
         {
             "name": "Golden Mega Charizard (130/094)",
             "image": "images/golden_mega_charizard_card.webp",
             "description": "Market Price: $452.00",
-            "graded": "Highly Graded: $100,000"
+            "graded": "Highly Graded: $99,999.99"
         }
     ]
 }
