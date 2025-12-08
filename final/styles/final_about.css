@@ -7,8 +7,6 @@
     --text-dark: #333;
 }
 
-/* GENERAL */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,7 +19,6 @@ body {
     color: var(--text-dark);
 }
 
-/* HEADER */
 header {
     display: flex;
     align-items: center;
@@ -70,13 +67,11 @@ main {
     margin: 2rem auto;
 }
 
-/* INTRO */
 .intro-section {
     text-align: center;
     margin-bottom: 2rem;
 }
 
-/* GRID LAYOUT */
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -84,7 +79,6 @@ main {
     margin-top: 2rem;
 }
 
-/* INFO BOXES */
 .about-box {
     background: white;
     padding: 1.5rem;
@@ -97,7 +91,6 @@ main {
     color: var(--accent_3);
 }
 
-/* FEATURED CARD */
 .featured-card-box {
     text-align: center;
     background: white;
@@ -119,7 +112,6 @@ main {
     color: var(--primary);
 }
 
-/* CTA BUTTON */
 .cta-btn {
     display: block;
     margin: 1rem auto;

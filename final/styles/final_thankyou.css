@@ -7,8 +7,6 @@
     --text-dark: #333;
 }
 
-
-/* Global Reset */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,7 +22,6 @@ body {
     animation: fadeIn 1s ease;
 }
 
-/* NAVIGATION */
 .main-nav {
     display: flex;
     justify-content: space-around;
@@ -45,7 +42,6 @@ body {
     color: white;
 }
 
-/* Header */
 header {
     display: flex;
     align-items: center;
@@ -136,7 +132,7 @@ h1 {
         margin: 8px 0;
     }
 
-    /* Footer */
+
 footer {
     background-color: var(--accent_3);
     color: var(--text);
