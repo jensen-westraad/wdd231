@@ -136,12 +136,6 @@ main {
     background: var(--accent_3);
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
-    .about-grid {
-        grid-template-columns: 1fr;
-    }
-}
 
 footer {
     background-color: var(--accent_3);
