@@ -1,9 +1,7 @@
-// FOOTER
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent =
     "Last Modified: " + document.lastModified;
 
-// NAVIGATION
 const navBtns = document.querySelectorAll(".nav-btn");
 const pages = document.querySelectorAll(".page");
 
@@ -17,8 +15,6 @@ navBtns.forEach(btn => {
         document.getElementById(page + "Page").classList.add("active");
     });
 });
-
-
 
 fetch("data/featured_card.json")
     .then(res => res.json())

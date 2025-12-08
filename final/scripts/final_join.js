@@ -1,20 +1,12 @@
-// ==========================
-// FINAL_JOIN.JS
-// ==========================
 document.addEventListener("DOMContentLoaded", () => {
 
-  // ==========================
-  // FOOTER INFO
-  // ==========================
+
   const yearEl = document.getElementById('year');
   const lastModEl = document.getElementById('lastModified');
 
   if (yearEl) yearEl.textContent = new Date().getFullYear();
   if (lastModEl) lastModEl.textContent = 'Last Modified: ' + document.lastModified;
 
-  // ==========================
-  // MOBILE MENU TOGGLE
-  // ==========================
   const menuButton = document.getElementById('menuButton');
   const navMenu = document.getElementById('navMenu');
 
@@ -24,17 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ==========================
-  // SET TIMESTAMP
-  // ==========================
   const timestampField = document.getElementById("timestamp");
   if (timestampField) {
     timestampField.value = new Date().toLocaleString();
   }
 
-  // ==========================
-  // LOAD MEMBERSHIP DATA JSON
-  // ==========================
   let membershipData = {};
 
   fetch('data/membership.json')
@@ -45,9 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => console.error('Failed to load membership data:', err));
 
-  // ==========================
-  // MODAL FUNCTIONALITY
-  // ==========================
   function initModals() {
     const cards = document.querySelectorAll(".membership-card");
     const modals = document.querySelectorAll(".modal");

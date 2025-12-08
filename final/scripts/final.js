@@ -1,9 +1,8 @@
-// FOOTER
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent =
     "Last Modified: " + document.lastModified;
 
-// NAVIGATION
+
 const navBtns = document.querySelectorAll(".nav-btn");
 const pages = document.querySelectorAll(".page");
 
@@ -26,7 +25,7 @@ let currentCards = [];
 const grid = document.getElementById("cardGrid");
 const spinner = document.getElementById("loadingSpinner");
 
-// MODAL ELEMENTS
+
 const modal = document.getElementById("cardModal");
 const modalTitle = document.getElementById("modalTitle");
 const modalImg = document.getElementById("modalImage");
@@ -90,7 +89,6 @@ function displayCards(cards) {
     });
 }
 
-// Load cards
 async function loadCards() {
     try {
         const response = await fetch("data/sets.json");
@@ -128,7 +126,6 @@ function openModal(card) {
 }
 
 
-// INIT
 loadSets();
 
 const messageEl = document.getElementById("visitMessage");

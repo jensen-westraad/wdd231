@@ -4,7 +4,7 @@ document.getElementById('lastModified').textContent =
 
 
 
-// Extract query string params
+
 const params = new URLSearchParams(window.location.search);
 
 let output = "";
